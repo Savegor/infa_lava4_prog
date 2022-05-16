@@ -19,33 +19,33 @@ int main()
     {
         if (bot_choose == 'p')
         {
-            cout « "You win";
+            cout << "You win";
         }
         else if (bot_choose == 'r')
         {
-            cout « "You lose";
+            cout << "You lose";
         }
     }
     else if(player == 'r')
     {
         if (bot_choose == 's')
         {
-            cout « "You win";
+            cout << "You win";
         }
         else if (bot_choose == 'p')
         {
-            cout « "You lose";
+            cout << "You lose";
         }
     }
         else if(player == 'p')
         {
         if (bot_choose == 'r')
         {
-        cout « "You win";
+        cout << "You win";
         }
         else if (bot_choose == 's')
         {
-        cout « "You lose";
+        cout << "You lose";
         }
 }
 	
