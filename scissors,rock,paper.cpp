@@ -37,7 +37,17 @@ int main()
             cout « "You lose";
         }
     }
-
+        else if(player == 'p')
+        {
+        if (bot_choose == 'r')
+        {
+        cout « "You win";
+        }
+        else if (bot_choose == 's')
+        {
+        cout « "You lose";
+        }
+}
 	
 
 	
