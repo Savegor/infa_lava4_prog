@@ -15,7 +15,28 @@ int main()
 	{
 		cout<<"Draw";
 	}
-
+    else if(player == 's')
+    {
+        if (bot_choose == 'p')
+        {
+            cout « "You win";
+        }
+        else if (bot_choose == 'r')
+        {
+            cout « "You lose";
+        }
+    }
+    else if(player == 'r')
+    {
+        if (bot_choose == 's')
+        {
+            cout « "You win";
+        }
+        else if (bot_choose == 'p')
+        {
+            cout « "You lose";
+        }
+    }
 
 	
 
